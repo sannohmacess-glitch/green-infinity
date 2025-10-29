@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #103123;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #faf5ee;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+  flex-wrap: nowrap;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.logo h1 {
+  font-size: 20px;
+  color: #103123;
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #103123;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+nav a:hover {
+  color: #ff0202;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); /* ✅ visible shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttons :hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 60px rgba(255, 215, 0, 0.6); /* gold glow */
+}
+
+.signup {
+  text-decoration: none;
+  background-color: #103123;
+  color: #faf5ee;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  width: 100%;
+  box-shadow: #103123;
+}
+
+.signup:hover {
+  color: #faf5ee;
+}
+.logo {
+  display: flex;
+}
+.content {
+  justify-content: center;
+  display: flex;
+  background-color: #103123;
+  padding: 10px;
+  flex-direction: column;
+  margin: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content img {
+  border-radius: 10px;
+  box-shadow: #faf5ee 0 0 10px;
+  justify-content: left;
+  margin: 50px;
+  width: 1200px;
+}
+
+.content h1 {
+  justify-content: center;
+  color: #faf5ee;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.content p {
+  justify-content: center;
+  color: #faf5ee;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-top: 0;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.heading_1 {
+  align-items: center;
+  color: #103123;
+  background: #faf5ee;
+  text-align: center;
+  background-position: 10px;
+  padding: 5px;
+}
+
+.project h3 {
+  color: #faf5ee;
+  text-align: center;
+}
+.heading_2 {
+  color: #faf5ee;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img_1 {
+  align-items: left;
+  width: 20px;
+  display: flex;
+  align-content: space-around;
+  margin: 70px;
+  border-radius: 50px;
+  box-shadow: #faf5ee;
+}
+
+.img_2 {
+  align-items: left;
+  width: 20px;
+  display: flex;
+  align-content: space-around;
+  margin: 70px;
+  border-radius: 10px;
+  box-shadow: #faf5ee;
+}
+
+.img_3 {
+  align-items: left;
+  width: 20px;
+  display: flex;
+  align-content: space-around;
+  margin: 70px;
+  border-radius: 10px;
+  box-shadow: #faf5ee;
+}
+
+.img_4 {
+  align-items: left;
+  width: 20px;
+  display: flex;
+  align-content: space-around;
+  margin: 70px;
+  border-radius: 20px;
+  box-shadow: #faf5ee;
+}
+
+.img_1 h1 {
+  justify-content: center;
+  color: #faf5ee;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  flex-direction: row;
+}
+
+.img_2 h1 {
+  justify-content: center;
+  color: #faf5ee;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.img_3 h1 {
+  justify-content: center;
+  color: #faf5ee;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  flex-direction: row;
+}
+
+.img_4 h1 {
+  justify-content: center;
+  color: #faf5ee;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  flex-direction: row;
+  border: #faf5ee;
+  border-radius: 20px;
+}
+.p1 {
+  justify-content: space-between;
+  color: #faf5ee;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 0;
+  flex-direction: column;
+  font-weight: bold;
+  text-align: left;
+  align-items: left;
+}
+.exp {
+  background-color: #faf5ee;
+  color: #103123;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
